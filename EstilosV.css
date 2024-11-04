@@ -1,0 +1,164 @@
+/*CABEZERA, TITULO Y*/
+body{
+    background: pink;
+}
+
+#H1{
+    width: 610px;
+    height: 150px;
+    margin: auto;
+
+}
+
+h1{
+    border-radius: 15%;
+    width: 590px;
+    height: 130px;
+    font-size: 70px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    background: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    
+
+}
+
+#global{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15%;
+    width: 70%;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    
+
+}
+
+
+.menu{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    height: 75px;
+    margin-right: 100px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: #009bde81;
+    border-radius: 10%;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+
+}
+
+.menu li {
+    
+    height: 100%;
+    width: 50%;
+    font-size: 50px;
+    margin: 5%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu li a{
+    text-decoration: none; 
+    color: black;
+
+}
+
+/*SECCION MEDIA, CONTENIDO DE LA PAGINA*/
+
+#Media{
+    width: 700px;
+    font-size: 20px;
+    margin: auto;
+    margin-right: 100px;
+    padding: 2%;
+
+
+    
+    
+}
+
+#Media p{
+
+    background: #009bde81;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 20px;
+    border-radius: 10%;
+
+}
+
+#izq{
+    
+    width: 27%;
+    height: 70%;
+    float: left;
+    margin: 100px;
+    padding: 10px;
+    margin-top: 5%;
+
+
+}
+
+#izq img{
+    border-radius: 40%;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    border: solid 3px rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+/*Parte baja de la pagina*/
+
+footer{
+    width: 60%;
+    margin-left: 21%;
+    border-radius: 20%;
+    display: flex;
+    background: #009bde81;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+footer p{
+    margin-left: 40px;
+    width: 60%;
+    font-size: 23px;
+    
+}
+
+footer div{
+    width: 20%;
+    margin-left: 100px;
+    float: right;
+}
+
+footer div img{
+    
+    border-radius: 15%;
+    margin-top: 3%;
+    margin-left: 25%;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+    
+    
+
+}
+
